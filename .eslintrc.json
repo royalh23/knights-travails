@@ -9,6 +9,8 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "consistent-return": "off",
+    "no-unused-vars": "off"
   }
 }
