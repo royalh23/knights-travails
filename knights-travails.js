@@ -40,7 +40,7 @@ function buildGraph(size) {
   return graph;
 }
 
-function knightMoves(start, end = null) {
+function knightMoves(start, end) {
   const graph = buildGraph(8);
   const visited = [[null, start]];
   const queue = [start];
